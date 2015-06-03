@@ -1,4 +1,4 @@
-# L3Cube-assignments
+# L3Cube-assignment
 There are two codes in the documents. Both are the solutions to the problem of Birthday Paradox. 
 I have used a library called GMP for arbitray precision arithmetic operating on signed integers, rational numbers, and floating-point numbers. There is no practical limit to the precision except the ones implied by the available memory in the machine GMP runs on.
 The reason of using this library is that normal double and long double have a limit to the precision which can be set. Thus for some test cases the result truncates. So gmp has been used to improve the precision with which we can get the desired result correctly for all the test cases applicable to our problem. 
