@@ -26,9 +26,9 @@ int main() {
 	cin>>k;
 	printf("Choose :\nLeap Year(1)\nNormal Year(2)\n"); // Choose if its a normal year or a leap year
 	scanf("%d",&op);
-	if(op=='y')
+	if(op==1)
 		n=366;
-	else
+	else if(op==2)
 		n=365;		
 	for(int i =1;i<=k;i++)
 		p= p* ((long double) (n - i + 1) / n); //Probability that no two people have same birthday
