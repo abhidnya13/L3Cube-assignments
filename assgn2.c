@@ -29,9 +29,9 @@ int main() {
 	scanf("%lf",&k);
 	printf("Choose :\nLeap Year(1)\nNormal Year(2)\n"); // Choose if its a normal year or a leap year
 	scanf("%d",&op);
-	if(op=='y')
+	if(op==1)
 		n=366;
-	else
+	else if(op==2)
 		n=365;		
 	for(i=1;i<=k;i++) //this loop calculates the probability that two people dont have birthdays on the same day
 	{
